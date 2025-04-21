@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  max-width: 1200px;
+  padding: 0.5rem;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.navbar {
+  padding-right: 30rem;
+}
+
+.button1 {
+  border-style: none;
+  color: gray;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+.button2 {
+  border-radius: 10px;
+  padding: 5px;
+  color: gray;
+  border-color: gray;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+/* middle section */
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.middleleft {
+  padding: 50px;
+  padding-top: 10rem;
+}
+
+h1 {
+  padding: 20px;
+}
+
+h2 {
+  padding-bottom: 2rem;
+  font-size: 50px;
+}
+
+p {
+  color: gray;
+  padding-bottom: 20px;
+}
+
+.button3 {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.image {
+  margin-top: 30px;
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.bottom1 {
+  padding-top: 10rem;
+  display: flex;
+  align-items: center;
+}
+
+.button1:hover {
+  transition: 0.3s;
+  color: red;
+}
+
+.button2:hover {
+  transition: 0.3s;
+  text-decoration: underline;
+  color: blue;
+}
+
+.button3:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+  color: orange;
+}
+
+ul:hover {
+  transition: 0.3s;
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    display: none;
+  }
+}
