@@ -13,7 +13,6 @@ body {
   align-items: center;
   position: relative;
   max-width: 1200px;
-  padding: 0.5rem;
 }
 
 ul {
@@ -23,7 +22,7 @@ ul {
 }
 
 .navbar {
-  padding-right: 30rem;
+  padding-right: 10rem;
 }
 
 .button1 {
@@ -50,14 +49,14 @@ a {
 .middle {
   display: flex;
   justify-content: space-between;
-  padding-top: 5rem;
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-top: 1rem;
+  max-width: 1200px;
+  align-items: center;
 }
 
 .middleleft {
-  padding: 50px;
-  padding-top: 10rem;
+  padding: 140px;
+  padding-top: 5rem;
 }
 
 h1 {
@@ -83,9 +82,9 @@ p {
 
 .image {
   margin-top: 30px;
-  max-width: 50%;
+  max-width: 60%;
   height: auto;
-  border-radius: 10px;
+  padding-bottom: 10rem;
 }
 
 .bottom1 {
@@ -120,5 +119,8 @@ ul:hover {
 @media (max-width: 700px) {
   .navbar {
     display: none;
+  }
+  .middle {
+    flex-direction: column-reverse;
   }
 }
